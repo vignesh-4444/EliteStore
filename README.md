@@ -1,8 +1,13 @@
 # EliteStore — Premium E-commerce Website
 
+## 🚀 Live Demo
+
+👉 [vignesh-elitestore.netlify.app](https://vignesh-elitestore.netlify.app)
+
 ## 🚀 Project Overview
 
 **EliteStore** is a modern, responsive, and elegant e-commerce front-end built with:
+
 - Vite
 - React + TypeScript
 - Tailwind CSS
@@ -21,7 +26,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/EliteStore.git
+git clone https://github.com/vignesh-4444/EliteStore.git
 cd EliteStore
 
 # Install dependencies
@@ -29,3 +34,4 @@ npm install
 
 # Start dev server
 npm run dev
+```
