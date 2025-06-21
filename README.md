@@ -21,7 +21,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/vignesh-4444/EliteStore
+git clone https://github.com/vignesh-4444/EliteStore.git
 cd EliteStore
 
 # Install dependencies
