@@ -1,7 +1,6 @@
-
-import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardFooter } from '@/components/ui/card';
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 
 interface Product {
   id: number;
@@ -33,16 +32,25 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </div>
         </div>
         <div className="p-4">
-          <h3 className="font-semibold text-lg mb-2 text-slate-800">{product.name}</h3>
+          <h3 className="font-semibold text-lg mb-2 text-slate-800">
+            {product.name}
+          </h3>
           <div className="flex items-center mb-3">
             <div className="flex text-amber-400">
               {[...Array(5)].map((_, i) => (
-                <span key={i} className={i < product.rating ? "text-amber-400" : "text-gray-300"}>
+                <span
+                  key={i}
+                  className={
+                    i < product.rating ? "text-amber-400" : "text-gray-300"
+                  }
+                >
                   ★
                 </span>
               ))}
             </div>
-            <span className="text-sm text-slate-500 ml-2">({product.rating}/5)</span>
+            <span className="text-sm text-slate-500 ml-2">
+              ({product.rating}/5)
+            </span>
           </div>
           <p className="text-2xl font-bold text-slate-800">${product.price}</p>
         </div>
